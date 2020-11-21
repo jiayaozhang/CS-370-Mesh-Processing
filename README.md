@@ -5,9 +5,9 @@
 ## Instructions
 This is the solution to my course project of CS272-Geometric-Modeling. We are working on curvature estimation using the characteristics of shifted surface of an object. 
 
-![curvature1](misc/curvature1.png)
+![curvature1](misc/t3.png)
  
-![curvature2](misc/curvature2.png)
+![curvature2](misc/cherboardbw.png)
  
 
 ## Getting OpenMesh
