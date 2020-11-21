@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/build/src/OpenMesh/Apps/curvature_estimation/glad/glad_autogen/mocs_compilation.cpp
+

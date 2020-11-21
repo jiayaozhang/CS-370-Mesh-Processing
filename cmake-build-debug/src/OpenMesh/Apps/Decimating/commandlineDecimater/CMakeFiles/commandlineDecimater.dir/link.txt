@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -DINCLUDE_TEMPLATES  -DDEBUG  -W  -Wall  -Wno-unused  -Wextra  -Wno-variadic-macros   -rdynamic CMakeFiles/commandlineDecimater.dir/__/decimater.cc.o  -o ../../../../../Build/bin/commandlineDecimater  -Wl,-rpath,"\$ORIGIN/../lib" ../../../../../Build/lib/libOpenMeshToolsd.so.8.0 ../../../../../Build/lib/libOpenMeshCored.so.8.0 

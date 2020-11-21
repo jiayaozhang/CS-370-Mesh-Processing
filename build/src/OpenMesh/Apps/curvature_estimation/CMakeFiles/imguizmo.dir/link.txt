@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimguizmo.a  CMakeFiles/imguizmo.dir/home/zhangj0o/Documents/codefiles/libigl/external/imguizmo/ImGuizmo.cpp.o CMakeFiles/imguizmo.dir/imguizmo_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libimguizmo.a

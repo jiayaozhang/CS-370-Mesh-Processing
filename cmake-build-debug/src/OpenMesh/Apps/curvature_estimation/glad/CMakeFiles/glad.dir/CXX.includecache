@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/curvature_estimation/glad/glad_autogen/mocs_compilation.cpp
+

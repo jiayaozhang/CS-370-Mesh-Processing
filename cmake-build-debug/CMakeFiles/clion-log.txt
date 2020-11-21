@@ -1,0 +1,164 @@
+/home/zhangj0o/Documents/apps/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation
+CMake Warning (dev) at /home/zhangj0o/Documents/apps/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/share/cmake-3.17/Modules/FindOpenGL.cmake:305 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  src/OpenMesh/Apps/CMakeLists.txt:41 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Cloning into 'eigen'...
+HEAD is now at 21ae2afd4 bump to 3.3.7
+-- Creating target: igl::core (igl)
+-- Creating target: igl::opengl (igl_opengl)
+Cloning into 'glad'...
+HEAD is now at 09b4969 Update CMakeLists.txt
+-- Creating target: igl::opengl_glfw (igl_opengl_glfw)
+Cloning into 'glfw'...
+HEAD is now at b0796109 Documentation work
+-- Using X11 for window creation
+-- Creating target: igl::opengl_glfw_imgui (igl_opengl_glfw_imgui)
+Cloning into 'imgui'...
+HEAD is now at 5503c0a1 Version 1.76
+Cloning into 'libigl-imgui'...
+HEAD is now at 99f0643 Merge remote-tracking branch 'origin/master' into HEAD
+Cloning into 'imguizmo'...
+HEAD is now at a235672 Fixed warnings. Fixed mixed line endings, and removed trailing space.
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+
+[40;37m************************************************************[0m
+[40;37m* [1;31mACG [0;40;34mBuildsystem[0m[40;37m                                          *[0m
+[40;37m*                                                          *[0m
+[40;37m* Package : [32mOpenMesh                                 [37m      *[0m
+[40;37m* Version : [32m8.0                                      [37m      *[0m
+[40;37m* Type    : [32mDebug [37m                                         *[0m
+[40;37m************************************************************[0m
+-- Configuring done
+CMake Warning (dev) in src/OpenMesh/Apps/Decimating/DecimaterGui/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT_impl.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/Decimating/CmdOption.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/Decimating/DecimaterViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/Decimating/DecimaterViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in src/OpenMesh/Apps/QtViewer/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT_impl.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidget.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in src/OpenMesh/Apps/Subdivider/SubdividerGui/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT_impl.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/Subdivider/MeshViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/Subdivider/SubdivideWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/Subdivider/SubdivideWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in src/OpenMesh/Apps/ProgViewer/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/ProgViewer/ProgViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT_impl.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/ProgViewer/ProgViewerWidget.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in src/OpenMesh/Apps/VDProgMesh/Synthesizer/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/VDProgMesh/Synthesizer/VDPMSynthesizerViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/MeshViewerWidgetT_impl.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/QtViewer/QGLViewerWidget.hh"
+    "/home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/src/OpenMesh/Apps/VDProgMesh/Synthesizer/VDPMSynthesizerViewerWidget.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/zhangj0o/Documents/codefiles/CS272-Geometrci-Processing-Curvature-Estimation/cmake-build-debug

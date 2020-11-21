@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\libigl\;CMake Files\..\libigl\external\;CMake Files\..\libigl\external\glfw\;CMake Files\..\libigl\external\glfw\src\;CMake Files\..\libigl\external\glad\;CMake Files\..\libigl\external\libigl-imgui\;CMake Files\..\libigl\cmake\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\anaconda3\;CMake Files\..\..\..\..\anaconda3\lib\;CMake Files\..\..\..\..\anaconda3\lib\cmake\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5X11Extras\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\OpenMesh\;CMake Files\src\OpenMesh\Core\;CMake Files\src\OpenMesh\Tools\;CMake Files\src\OpenMesh\Apps\;CMake Files\src\OpenMesh\Apps\Dualizer\;CMake Files\src\OpenMesh\Apps\Decimating\;CMake Files\src\OpenMesh\Apps\Decimating\commandlineDecimater\;CMake Files\src\OpenMesh\Apps\Decimating\DecimaterGui\;CMake Files\src\OpenMesh\Apps\Smoothing\;CMake Files\src\OpenMesh\Apps\Subdivider\;CMake Files\src\OpenMesh\Apps\Subdivider\commandlineSubdivider\;CMake Files\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\;CMake Files\src\OpenMesh\Apps\Subdivider\SubdividerGui\;CMake Files\src\OpenMesh\Apps\mconvert\;CMake Files\src\OpenMesh\Apps\VDProgMesh\;CMake Files\src\OpenMesh\Apps\VDProgMesh\mkbalancedpm\;CMake Files\src\OpenMesh\Apps\VDProgMesh\Analyzer\;CMake Files\src\OpenMesh\Apps\VDProgMesh\Synthesizer\;CMake Files\src\OpenMesh\Apps\demo\;CMake Files\src\OpenMesh\Apps\demo\cmake\;CMake Files\src\OpenMesh\Apps\QtViewer\;CMake Files\src\OpenMesh\Apps\ProgViewer\;CMake Files\src\Unittests\;CMake Files\Doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/libgladd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/glad_autogen/include"/>
+					<Add directory="/home/qiang/anaconda3/include/qt"/>
+					<Add directory="/home/qiang/anaconda3/include/qt/QtX11Extras"/>
+					<Add directory="/home/qiang/anaconda3/include/qt/QtGui"/>
+					<Add directory="/home/qiang/anaconda3/include/qt/QtCore"/>
+					<Add directory="/home/qiang/anaconda3/./mkspecs/linux-g++"/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/demo/../../.."/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/demo"/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/libigl/external/glad/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/libgladd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINCLUDE_TEMPLATES"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/glad_autogen/include"/>
+					<Add directory="/home/qiang/anaconda3/include/qt"/>
+					<Add directory="/home/qiang/anaconda3/include/qt/QtX11Extras"/>
+					<Add directory="/home/qiang/anaconda3/include/qt/QtGui"/>
+					<Add directory="/home/qiang/anaconda3/include/qt/QtCore"/>
+					<Add directory="/home/qiang/anaconda3/./mkspecs/linux-g++"/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/demo/../../.."/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/demo"/>
+					<Add directory="/home/qiang/Documents/codefiles/geo/libigl/external/glad/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad_autogen">
+				<Option working_dir="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 glad_autogen"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake-build-debug/src/OpenMesh/Apps/demo/glad/glad_autogen/mocs_compilation.cpp">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/libigl/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\glad\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/external/libigl-imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\libigl\external\libigl-imgui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/cmake/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/cmake/LibiglWindows.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../libigl/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\..\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/../../../../anaconda3/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\anaconda3\lib\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake/ACGCommon.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake/ACGCompiler.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake/ACGDoxygen.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake/ACGOutput.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake/ACGQt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/cmake/OpenMeshPackage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Core\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Tools\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Dualizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Dualizer\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Decimating/commandlineDecimater/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Decimating\commandlineDecimater\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Decimating/DecimaterGui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Decimating\DecimaterGui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Smoothing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Smoothing\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Subdivider/commandlineSubdivider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Subdivider\commandlineSubdivider\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/Subdivider/SubdividerGui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\Subdivider\SubdividerGui\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/mconvert/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\mconvert\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/VDProgMesh/mkbalancedpm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\VDProgMesh\mkbalancedpm\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/VDProgMesh/Analyzer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\VDProgMesh\Analyzer\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/VDProgMesh/Synthesizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\VDProgMesh\Synthesizer\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\demo\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/demo/cmake/FindLIBIGL.cmake">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\demo\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/QtViewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\QtViewer\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/OpenMesh/Apps/ProgViewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OpenMesh\Apps\ProgViewer\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/src/Unittests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Unittests\"/>
+		</Unit>
+		<Unit filename="/home/qiang/Documents/codefiles/geo/OpenMesh-8.0/Doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

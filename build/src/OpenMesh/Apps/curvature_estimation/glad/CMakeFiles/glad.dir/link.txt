@@ -1,0 +1,2 @@
+/usr/bin/ar qc libglad.a  CMakeFiles/glad.dir/src/glad.c.o CMakeFiles/glad.dir/glad_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libglad.a
