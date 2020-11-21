@@ -1,4 +1,4 @@
-# OpenMesh, 8.0
+# Isometric Deformation and Killing Field
 
 [![](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/badges/master/pipeline.svg)](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/commits/master)
 
@@ -8,8 +8,9 @@ This is the solution to my course project of CS272-Geometric-Modeling. We are wo
 ![curvature1](misc/t3.png)
  
 ![curvature2](misc/cherboardbw.png)
- 
 
+![curvature2](misc/trans.png)
+ 
 ## Getting OpenMesh
 All Documentation, binaries and original source code are available at www.openmesh.org  
 
@@ -22,20 +23,7 @@ https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh
 The python bindings can be found here:    
 https://www.graphics.rwth-aachen.de:9000/OpenMesh/openmesh-python
 
-## Download Binaries
 
-### Windows
-
-| Visual Studio Version: | 2017 | 2015 |
-| -------- | -------- |-------- |
-| 64-Bit shared, with apps  | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2017-64-bit-shared-apps) | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-64-bit-shared-apps)  |
-| 32-Bit shared, with apps   | -  | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-32-bit-shared-apps)   |
-| 64-Bit static, with apps  | [Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2017-64-bit-static-apps)  | [Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-64-bit-static-apps)  |
-| 32-Bit static, with apps   | -  | [ Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-32-bit-static-apps)   |
-| 64-Bit shared, no apps  | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2017-64-bit-shared-no-apps)  | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-64-bit-shared-no-apps)  |
-| 32-Bit shared, no apps   | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2017-32-bit-shared-no-apps)   | [Download](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-32-bit-shared-no-apps)   |
-| 64-Bit static, no apps  | [Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2017-64-bit-static-no-apps)   | [Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-64-bit-static-no-apps)  |
-| 32-Bit static, no apps   | [ Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2017-32-bit-static-no-apps)  | [ Download ](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/build-release?job=VS2015-32-bit-static-no-apps)   |
 
 ## Download Sources
 [ Download Sources](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/-/jobs/artifacts/master/browse/?job=Sources )
