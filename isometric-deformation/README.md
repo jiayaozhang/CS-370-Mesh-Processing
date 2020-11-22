@@ -1,14 +1,5 @@
-# Discrete orthogonal geodesic net (DOG) editor
-A simple DOG editor, implementing methods from the following papers:
+# iSOMETRIC DEFORMATION
 
-"Discrete geodesic nets for modeling developable surfaces"  
-Michael Rabinovich, Tim Hoffmann and Olga Sorkine-Hornung
-  
-
-"The shape space of discrete orthogonal geodesic nets"  
-Michael Rabinovich, Tim Hoffmann and Olga Sorkine-Hornung
-
-The editor currently does not support editing of curved folded surfaces, but I will update another version that does soon. Please contact me via email (michael.rabinovich.27@gmail.com) in case you have any questions or issues.
 
 The content is as follows:  
 
@@ -40,7 +31,3 @@ The handles can be cleared/resetted by pressing 'c'. Optimization can be turned 
 
 
 The default editing scheme use a bending objective and an isometry objective with a high weight. The objective weights can be changed in the menu. Note that one can remove the isometry objective entirely, but in that case it is important to add some weight for the edge regularizing objective.  
-
-To visualize the Gauss Map or the surface rulings, simple change the ViewMode.
-![Alt text](data/images/GaussAndRulings.jpg?raw=true "Visualizing the Gauss map of the surface and the DOG discrete rulings")  
-
