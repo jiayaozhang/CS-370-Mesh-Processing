@@ -3,7 +3,7 @@
 [![](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/badges/master/pipeline.svg)](https://www.graphics.rwth-aachen.de:9000/OpenMesh/OpenMesh/commits/master)
 
 ## Instructions
-This is the solution to my course project of CS272-Geometric-Modeling. We are working on curvature estimation using the characteristics of shifted surface of an object. 
+This is the solution to my course project
 
 ![curvature1](misc/t3.png)
  
